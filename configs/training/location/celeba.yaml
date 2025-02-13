@@ -1,5 +1,5 @@
 # @package _group_
-data_root_dir: /e/lama/lama-main/celeba-hq-dataset/
-out_root_dir: /e/lama/lama-main/experiments/
-tb_dir: /e/lama/lama-main/tb_logs/
-pretrained_models: /e/lama/lama-main/
+data_root_dir: /kaggle/working/lama_kaa/celeba-hq-dataset/
+out_root_dir:  /kaggle/working/lama_kaa/experiments/
+tb_dir:  /kaggle/working/lama_kaa/tb_logs/
+pretrained_models:  /kaggle/working/lama_kaa/lama-main/
