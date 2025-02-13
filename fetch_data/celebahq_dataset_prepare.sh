@@ -1,11 +1,11 @@
-mkdir celeba-hq-dataset
+mkdir celeba-hq-dataset/data256x256
 
-unzip data256x256.zip -d celeba-hq-dataset/
+# unzip data256x256.zip -d celeba-hq-dataset/
 
 # Reindex
 for i in `echo {00001..30000}`
 do
-    mv 'celeba-hq-dataset/data256x256/'$i'.jpg' 'celeba-hq-dataset/data256x256/'$[10#$i - 1]'.jpg'
+    mv '/kaggle/input/celeba-hq-dataset/data256x256/'$i'.jpg' 'celeba-hq-dataset/data256x256/'$[10#$i - 1]'.jpg'
 done
 
 
