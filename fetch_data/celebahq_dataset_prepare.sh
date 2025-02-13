@@ -1,4 +1,6 @@
-mkdir celeba-hq-dataset/data256x256
+mkdir celeba-hq-dataset
+cd celeba-hq-dataset
+mkdir data256x256
 
 # unzip data256x256.zip -d celeba-hq-dataset/
 
