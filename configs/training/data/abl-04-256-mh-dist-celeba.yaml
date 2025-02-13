@@ -1,8 +1,8 @@
 # @package _group_
 
-batch_size: 40
-val_batch_size: 24
-num_workers: 10
+batch_size: 80
+val_batch_size: 48
+num_workers: 4
 
 train:
   indir: ${location.data_root_dir}/train_256
