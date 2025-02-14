@@ -11,7 +11,7 @@ os.environ['MKL_NUM_THREADS'] = '1'
 os.environ['VECLIB_MAXIMUM_THREADS'] = '1'
 os.environ['NUMEXPR_NUM_THREADS'] = '1'
 os.environ['USER'] = '1'
-os.environ['HYDRA_FULL_ERROR']=1
+os.environ['HYDRA_FULL_ERROR']='1'
 
 import hydra
 from omegaconf import OmegaConf
